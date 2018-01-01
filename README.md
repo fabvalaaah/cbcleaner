@@ -15,10 +15,9 @@ It can be launched through the Startup Applications (use the Dash to find it) of
 Ubuntu. I previously added a symbolic link to the binary "cbcleaner" from the
 release directory of the NetBeans project into /usr/bin. Only one instance of
 the daemon will remain active through several session logins. To check if the
-daemon is active, just execute "sudo ps xj | grep cbcleaner" in a terminal. Logs
-are also pushed into /var/log/syslog (cat /var/log/syslog | grep cbcleaner). To
-stop the daemon, you just have to kill the process with
-"sudo kill <cbcleaner pid>"
+daemon is active, just execute "ps xj | grep cbcleaner" in a terminal. Logs are
+also pushed into /var/log/syslog (cat /var/log/syslog | grep cbcleaner). To stop
+the daemon, you just have to kill the process with "kill [cbcleaner PID]"
 
 Usage example 1 : "./cbcleaner", clipboards will be cleared every 120s with
 warning pop-ups activated.
