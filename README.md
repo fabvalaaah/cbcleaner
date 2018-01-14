@@ -19,10 +19,10 @@ daemon is active, just execute "ps xj | grep cbcleaner" in a terminal. Logs are
 also pushed into /var/log/syslog ("cat /var/log/syslog | grep cbcleaner"). To
 stop the daemon, you just have to kill the process with "kill [cbcleaner PID]".
 
-Usage example 1 : "./cbcleaner", clipboards will be cleared every 120s with
+Usage example 1: "./cbcleaner", clipboards will be cleared every 120s with
 warning pop-ups activated.
 
-Usage example 2 : "./cbcleaner 60 no", clipboards will be cleared every 90s with
+Usage example 2: "./cbcleaner 60 no", clipboards will be cleared every 90s with
 warning pop-ups deactivated.
 
 DONATION:
