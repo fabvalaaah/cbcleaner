@@ -25,6 +25,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>.gitattributes</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -45,6 +46,8 @@
           <commandLine>-L/usr/X11/lib -lX11</commandLine>
         </linkerTool>
       </compileType>
+      <item path=".gitattributes" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
@@ -75,6 +78,8 @@
           <commandLine>-L/usr/X11/lib -lX11</commandLine>
         </linkerTool>
       </compileType>
+      <item path=".gitattributes" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
