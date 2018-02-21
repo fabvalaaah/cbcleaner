@@ -1,5 +1,5 @@
 # cbcleaner
-Clipboards cleaning daemon for Ubuntu Linux x64.
+C clipboard(s) cleaning daemon for Ubuntu Linux x64.
 
 This is a C NetBeans project, compiled with GCC 5.4.0 and tested with Ubuntu
 Linux 16.04.3 LTS x64.
